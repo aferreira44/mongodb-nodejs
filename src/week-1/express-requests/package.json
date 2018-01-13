@@ -1,0 +1,22 @@
+{
+  "name": "express-requests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/standard",
+    "test": "./node_modules/.bin/standard && nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
